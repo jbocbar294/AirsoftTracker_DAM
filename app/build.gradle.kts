@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "iesmm.pmdm.airsofttracker"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "iesmm.pmdm.airsofttracker"

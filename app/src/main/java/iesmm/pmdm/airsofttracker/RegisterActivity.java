@@ -5,7 +5,9 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+import iesmm.pmdm.airsofttracker.R;
+
+public class RegisterActivity extends AppCompatActivity {
 
     private TextView tvUsuario;
     String usuario;
@@ -22,8 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
             // Mostrar el valor recibido en un TextView
             TextView textView = findViewById(R.id.tv1);
-            textView.setText(usuario)
-            ;
+            textView.setText(usuario);
         }
         tvUsuario = findViewById(R.id.tv1);
         tvUsuario.setText(usuario);
